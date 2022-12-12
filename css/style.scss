@@ -44,8 +44,42 @@ body {
   color: $cta-color;
 }
 
+.search-button {
+
+}
+
+// .btn-outline-success {
+  // --bs-btn-color: #232659;
+  // --bs-btn-border-color: #232659;
+  // --bs-btn-hover-color: #f2f2f2;
+  // --bs-btn-hover-bg: #232659;
+  // --bs-btn-hover-border-color: #232659;
+  // --bs-btn-active-color: #f2f2f2;
+  // --bs-btn-active-bg: #232659;
+  // --bs-btn-active-border-color: #232659;
+  // --bs-btn-disabled-color: #232659;
+  // --bs-btn-disabled-border-color: #232659;
+// }
 
 // Hero image
+
+.hero-img-container {
+  width: 100%;
+}
+
+.hero-img-caption-container {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  text-align: center;
+  background-color: #f2f2f252;
+  padding: 40px;
+  border-radius: 25px;
+  color: $cta-color;
+  backdrop-filter: blur(10px);
+}
+
+// Sticker
 
 
 // Sub navbar
@@ -132,45 +166,56 @@ body {
 
 // Footer
 
-.footer-logo-col {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-logo {
-  height: 15%;
-}
-
 .footer-container {
   background-color: $primary-color;
   color: $base-color;
 }
 
-.footer-menu-col {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.footer-container .row {
+  height: 100%;
+  padding: 2rem 2rem;
 }
 
-.footer-menu {
+.footer-container .row .col {
+  width: 10%;
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-logo-col {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-logo-col a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: fit-content;
+}
+
+.footer-logo {
+  max-width: 150px;
+}
+
+.footer-menu  {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-menu a {
   text-decoration: none;
   color: $base-color;
 }
-
+  
 .footer-menu a:hover {
   color: $cta-color;
   text-decoration: underline 2px;
-}
-
-.contact-col {
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .contact-col p {

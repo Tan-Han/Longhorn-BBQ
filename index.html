@@ -15,7 +15,6 @@
   <!-- ^ arrow icon - fundet på w3schools -->
 
   <link rel="stylesheet" href="https://use.typekit.net/kwe4lzz.css">
-  <link rel="stylesheet" href="https://use.typekit.net/kwe4lzz.css"> 
   <!-- ^skrifttyper - fundet på Adobe Fonts -->
 </head>
 <body>
@@ -57,30 +56,31 @@
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success search-button" type="submit">Search</button>
+          <!-- <button class="btn btn-outline-success search-button" type="submit" style="--bs-btn-color: #f2f2f2; --bs-btn-border-color: #f2f2f2; --bs-btn-hover-color: #f2f2f2;--bs-btn-hover-bg: #232659; --bs-btn-hover-border-color: #232659; --bs-btn-active-color: #f2f2f2; --bs-btn-active-bg: #232659; --bs-btn-active-border-color: #232659;--bs-btn-disabled-color: #232659; --bs-btn-disabled-border-color: #232659; --bs-btn-border-width: 2px;">Search</button> -->
         </form>
       </div>
     </div>
   </nav>
 
   <!-- Hero Image -->
-  <!-- jeg har lavet en .container-fluid divbox som jeg jeg har lagt et billede ind i. Herefter har jeg lavet en divbox hvor jeg har lavet 3 headlines -->
+  <!-- jeg har lavet en .container-expand-lg divbox som jeg jeg har lagt et billede ind i. Herefter har jeg lavet en divbox hvor jeg har lavet 3 headlines -->
 
-  <div class="container-fluid hero-img-container w-100">
-    <img src="img/kids bbq 1.jpg" alt="" class="img-fluid hero-img w-100">
-    <div class="hero-img-caption-container w-100">
-      <h1>Longhorn BBQ Competition</h1>
-      <h2>DM i Amerikansk BBQ</h2>
-      <h3>Lørdag d. 13. maj og søndag d. 14. maj 2023</h3>
+  <div class="container-expand-lg hero-img-container">
+    <img src="img/kids bbq 3.jpg" alt="" class="img-fluid hero-img w-100">
+    <div class="hero-img-caption-container">
+      <h1 class="header-one">Longhorn BBQ Competition</h1>
+      <h3 class="header-three">DM i Amerikansk BBQ</h3>
+      <h4 class="header-four">Lørdag d. 13. maj og søndag d. 14. maj 2023</h4>
     </div>
   </div>
 
   <!-- Sticker -->
-  <!-- Jeg har lavet en container med en h1, h2, p og knap -->
+  <!-- Jeg har lavet en container med en h2, h3, p og knap -->
 
   <div class="container kids-que-container">
-    <h1 class="kids-que-h1">NYT!</h1>
-    <h2 class="kids-que-h2">Kids Que</h2>
+    <h2 class="kids-que-h2 header-two">NYT!</h2>
+    <h3 class="kids-que-h3 header-three">Kids Que</h3>
     <p class="kids-que-p">Grill konkurrence for de mindste!</p>
     <button class="btn btn-outline-success ,kids-que-button" type="button">Se mere</button>
   </div>
@@ -184,8 +184,8 @@
   <div class="container-fluid follow-video-container" style="border: 2px solid #73060F; border-radius: 5px;">
     <div class="row">
       <div class="col follow-col">
-        <div class="row h1-follow-row" style="background-color: #73060F; color: #f2f2f2;">
-          <h1>Følg os</h1>
+        <div class="row h2-follow-row" style="background-color: #73060F; color: #f2f2f2;">
+          <h2 class="header-two">Følg os</h2>
         </div>
         <div class="row follow-icons-row w-100 justify-content-center">
           <div class="col fb-col w-100 justify-content-center">
@@ -241,7 +241,7 @@
   <div class="container-fluid footer-container">
     <div class="row">
       <div class="col footer-logo-col footer-col">
-        <img src="img/Logo/Longhorn-logo-viking-f2.png" alt="" class="footer-logo">
+        <a href="index.html" class=""><img src="img/Logo/Longhorn-logo-viking-f2.png" alt="" class="footer-logo"></a>
       </div>
       <div class="col footer-menu-col footer-col">
         <ul class="footer-menu">
@@ -253,7 +253,7 @@
         </ul>
       </div>
       <div class="col contact-col footer-col">
-        <h3 class="contact-h3">Kontakt os</h3>
+        <h4 class="contact-h4 header-four">Kontakt os</h3>
         <p>Fabriksvej 15, 6550 Brørup</p>
         <p>72 30 12 33</p>
         <p>info@primonordic.com</p>
