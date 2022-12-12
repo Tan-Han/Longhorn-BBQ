@@ -112,6 +112,20 @@ body {
           backdrop-filter: blur(10px);
 }
 
+.kids-que-container {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  text-align: center;
+  background-color: #232659;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 60px 40px;
+  border-radius: 50%;
+  color: #f2f2f2;
+}
+
 .sub-navbar {
   background-color: #73060F;
   height: 60px;

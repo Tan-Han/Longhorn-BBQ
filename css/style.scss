@@ -81,6 +81,17 @@ body {
 
 // Sticker
 
+.kids-que-container {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  text-align: center;
+  background-color: $cta-color;
+  width: fit-content;
+  padding: 60px 40px;
+  border-radius: 50%;
+  color: $base-color;
+}
 
 // Sub navbar
 
