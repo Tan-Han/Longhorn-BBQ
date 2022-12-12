@@ -41,6 +41,10 @@ body {
   font-size: 18px;
 }
 
+.navbar-logo {
+  height: 100px;
+}
+
 .navbar a {
   color: #f2f2f2;
 }
@@ -136,15 +140,30 @@ body {
   height: 50px;
 }
 
+.footer-logo-col {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 15%;
+}
+
 .footer-container {
   background-color: #73060F;
   color: #f2f2f2;
 }
 
+.footer-menu-col {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .footer-menu {
   list-style: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer-menu a {
@@ -159,8 +178,8 @@ body {
 }
 
 .contact-col {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-col p {
