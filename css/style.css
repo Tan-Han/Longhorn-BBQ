@@ -75,16 +75,14 @@ body {
 
 .navbar a {
   color: #f2f2f2;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .navbar a:hover {
   color: #232659;
   -webkit-text-decoration: underline 2px;
           text-decoration: underline 2px;
-}
-
-.nav-link {
-  color: #f2f2f2;
 }
 
 .nav-link:hover {
@@ -101,21 +99,22 @@ body {
 
 .hero-img-caption-container {
   position: absolute;
-  left: 20%;
-  top: 40%;
+  left: 25rem;
+  top: 22rem;
   text-align: center;
   background-color: rgba(242, 242, 242, 0.3215686275);
   padding: 40px;
   border-radius: 25px;
   color: #232659;
+  text-shadow: 2px 2px 10px #f2f2f2;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
 
 .kids-que-container {
   position: absolute;
-  right: 0;
-  top: 70%;
+  right: 2rem;
+  top: 43rem;
   text-align: center;
   background-color: #232659;
   width: -webkit-fit-content;
@@ -135,6 +134,8 @@ body {
 
 .sub-navbar a {
   color: #f2f2f2;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .sub-navbar a:hover {
@@ -175,7 +176,7 @@ body {
 
 .fa {
   padding: 20px;
-  width: 80px;
+  width: 90px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -195,8 +196,12 @@ body {
   color: white;
 }
 
-.logo {
-  height: 50px;
+.video-col {
+  width: 100%;
+}
+
+.placeholder-img {
+  width: 100px;
 }
 
 .footer-container {
