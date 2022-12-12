@@ -1,0 +1,160 @@
+@use "colors" as *;
+@use "typography" as *;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $base-color;
+}
+
+// Navigation bar
+
+.navbar {
+  background-color: $primary-color;
+  height: 70px;
+  color: $base-color;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: $base-color;
+}
+
+.navbar a:hover {
+  color: $cta-color;
+  text-decoration: underline 2px;
+}
+
+.nav-link {
+  color: $base-color;
+}
+
+.nav-link:hover {
+  color: $cta-color;
+}
+
+.nav-link:focus {
+  color: $cta-color;
+}
+
+
+// Hero image
+
+
+// Sub navbar
+
+.sub-navbar {
+  background-color: $primary-color;
+  height: 60px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.sub-navbar a {
+  color: $base-color;
+}
+
+.sub-navbar a:hover {
+  color: $cta-color;
+  text-decoration: underline 2px;
+}
+
+// Cards
+
+.card-con {
+  padding: 30px 10px;
+}
+
+.card-row {
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+}
+
+.arrow-row {
+  display: flex;
+  justify-content: right;
+}
+
+.link-arrow {
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.fa-arrow-circle-right {
+  color: $cta-color;
+}
+
+// Følg os
+
+.fb-col, .insta-col {
+  padding: 10px;
+}
+
+.fa {
+  padding: 20px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-social:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: $primary-color;
+  color: white;
+}
+
+.fa-instagram {
+  background: $primary-color;
+  color: white;
+}
+
+
+// Sponsors
+
+.logo {
+  height: 50px;
+}
+
+
+// Footer
+
+.footer-container {
+  background-color: $primary-color;
+  color: $base-color;
+}
+
+.footer-menu {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: $base-color;
+}
+
+.footer-menu a:hover {
+  color: $cta-color;
+  text-decoration: underline 2px;
+}
+
+.contact-col {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-col p {
+  padding: 0;
+  margin: 0;
+}
