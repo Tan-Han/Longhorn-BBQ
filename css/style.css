@@ -15,14 +15,14 @@
   font-family: freehouse, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .header-three {
   font-family: finalsix, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .header-four {
@@ -50,7 +50,7 @@ a {
   font-family: finalsix, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 * {
@@ -64,13 +64,13 @@ body {
 
 .navbar {
   background-color: #73060F;
-  height: 70px;
+  height: 80px;
   color: #f2f2f2;
   font-size: 18px;
 }
 
 .navbar-logo {
-  height: 100px;
+  height: 120px;
 }
 
 .navbar a {
@@ -114,7 +114,7 @@ body {
 .kids-que-container {
   position: absolute;
   right: 2rem;
-  top: 43rem;
+  top: 44rem;
   text-align: center;
   background-color: #232659;
   width: -webkit-fit-content;
@@ -127,7 +127,7 @@ body {
 
 .sub-navbar {
   background-color: #73060F;
-  height: 60px;
+  height: 80px;
   padding: 0;
   font-size: 20px;
 }
