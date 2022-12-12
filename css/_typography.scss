@@ -4,23 +4,51 @@
   font-style: normal;
 }
 
-h1 {
+.header-one {
+  font-family: freehouse,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.header-two {
   font-family: freehouse,serif;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
 }
 
-h2 {
+.header-three {
   font-family: finalsix, sans-serif;
-  font-weight: 600;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.header-four {
+  font-family: finalsix, sans-serif;
+  font-weight: 800;
   font-style: normal;
   font-size: 20px;
 }
 
-h3 {
+.card-title {
   font-family: finalsix, sans-serif;
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+p {
+  font-family: finalsix, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+a {
+  font-family: finalsix, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
 }
