@@ -8,7 +8,7 @@
   font-family: freehouse, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .header-two {
@@ -93,17 +93,32 @@ body {
   color: #232659;
 }
 
+.btn-outline-success {
+  --bs-btn-color: #232659;
+  --bs-btn-border-width: 2px;
+  --bs-btn-bg: #f2f2f2;
+  --bs-btn-border-color: #f2f2f2;
+  --bs-btn-hover-color: #f2f2f2;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: #f2f2f2;
+  --bs-btn-active-color: #f2f2f2;
+  --bs-btn-active-bg: #232659;
+  --bs-btn-active-border-color: #232659;
+  --bs-btn-disabled-color: #232659;
+  --bs-btn-disabled-border-color: #232659;
+}
+
 .hero-img-container {
   width: 100%;
 }
 
 .hero-img-caption-container {
   position: absolute;
-  left: 25rem;
-  top: 22rem;
+  left: 11rem;
+  top: 15rem;
   text-align: center;
   background-color: rgba(242, 242, 242, 0.3215686275);
-  padding: 40px;
+  padding: 30px;
   border-radius: 25px;
   color: #232659;
   text-shadow: 2px 2px 10px #f2f2f2;
@@ -113,8 +128,8 @@ body {
 
 .kids-que-container {
   position: absolute;
-  right: 2rem;
-  top: 45rem;
+  right: 0.5rem;
+  top: 26rem;
   text-align: center;
   background-color: #232659;
   width: -webkit-fit-content;
@@ -146,7 +161,7 @@ body {
 }
 
 .card-con {
-  padding: 30px 10px;
+  padding: 15px 5px;
 }
 
 .card-row {
@@ -167,13 +182,28 @@ body {
 
 .card-body i {
   margin-right: 0px;
-  margin-left: 250px;
+  margin-left: 150px;
   margin-bottom: 0;
   margin-top: 10px;
 }
 
 .fa-arrow-circle-right {
   color: #232659;
+}
+
+.galleri-h2 {
+  background-color: #73060F;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.col-tilmeld i {
+  margin-right: 0px;
+  margin-left: 350px;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .fb-col, .insta-col {
