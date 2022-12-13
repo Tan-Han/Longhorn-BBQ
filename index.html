@@ -108,7 +108,7 @@
   <!-- Lavede en ".container-fluid" divbox. Lavede en .row, hvor jeg kopirede en card ind fra Bootstrap. Kopierede .row og cards ind igen. I slutningen af hver card har jeg indsat et icon. Den er fundet på w3school og kopieret ind. Jeg har også sat linket til icon ind i "head" - Se gerne note i "head" -->
   
   <div class="container-fluid card-con">
-    <div class="row card-row">
+    <div class="row card-row" style="padding-right: 0; padding-left: 0;">
       <div class="card mb-3" style="max-width: 540px; border: 2px #73060F solid;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -118,7 +118,20 @@
             <div class="card-body">
               <h5 class="card-title">Hall of Fame</h5>
               <p class="card-text">Se de tidligere vindere af Longhorn BBQ competition</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <a href=""><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px; border: 2px #73060F solid;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Merch</h5>
+              <p class="card-text">Se vores super fede merch!</p>
               <a href=""><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
             </div>
           </div>
@@ -133,7 +146,6 @@
             <div class="card-body">
               <h5 class="card-title">Program</h5>
               <p class="card-text">Se hvad der skal ske på Longhorn</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               <div class="row arrow-row w-100">
                 <a href="" class="link-arrow"><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
               </div>
@@ -141,36 +153,9 @@
           </div>
         </div>
       </div>
-      <div class="row card-row">
-        <div class="card mb-3" style="max-width: 540px; border: 2px #73060F solid;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Merch</h5>
-                <p class="card-text">Se vores super fede merch!</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                <a href=""><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px; border: 2px #73060F solid;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Tilmelding</h5>
-                <p class="card-text">Kunne du tænke dig at deltage i konkurrencen, eller kunne du tænke dig at være dommer? Eller kunne du måske tænke dig at være frivillig? </p>
-                <a href=""><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- <div class="row card-row" style="padding-right: 0; padding-left: 0;"> -->
+        
+        
       </div>
     </div>
   </div>
@@ -182,6 +167,23 @@
 
   <div class="container-expand-lg follow-video-container" style="border: 2px solid #73060F; border-radius: 5px; margin: 10px 20px;">
     <div class="row" style="--bs-gutter-x: 0;">
+      <div class="card mb-3" style="max-width: 540px; border: none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tilmelding</h5>
+              <p class="card-text">Kunne du tænke dig at deltage i konkurrencen, eller kunne du tænke dig at være dommer? Eller kunne du måske tænke dig at være frivillig? </p>
+              <a href=""><i class="fa fa-arrow-circle-right" style="font-size: 32px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col video-col" style="">
+        <img src="img/kids bbq 2.jpg" alt="" class="placeholder-img w-100">
+      </div>
       <div class="col follow-col">
         <div class="row h2-follow-row" style="background-color: #73060F; color: #f2f2f2; padding: 20px 10px; --bs-gutter-x: 0;">
           <h2 class="header-two">Følg os</h2>
@@ -197,9 +199,6 @@
             <a href="#" class="fa fa-instagram" style="font-size: 50px;"></a>
           </div>
         </div>
-      </div>
-      <div class="col video-col" style="">
-        <img src="img/kids bbq 2.jpg" alt="" class="placeholder-img w-100">
       </div>
     </div>
   </div>

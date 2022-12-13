@@ -83,13 +83,14 @@ body {
 .kids-que-container {
   position: absolute;
   right: 2rem;
-  top: 44rem;
+  top: 45rem;
   text-align: center;
   background-color: $cta-color;
   width: fit-content;
   padding: 60px 40px;
   border-radius: 50%;
   color: $base-color;
+  z-index: 5;
 }
 
 // Sub navbar
@@ -126,14 +127,18 @@ body {
   margin: auto;
 }
 
-.arrow-row {
-  display: flex;
-  justify-content: right;
+.card-body {
+  height: 250px;
+}
+.card-text {
+  height: 100px;
 }
 
-.link-arrow {
+.card-body i {
   margin-right: 0px;
-  margin-left: auto;
+  margin-left: 250px;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .fa-arrow-circle-right {
