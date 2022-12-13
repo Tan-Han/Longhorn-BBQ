@@ -64,6 +64,11 @@ body {
   margin: 0;
 }
 
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .navbar {
   background-color: #73060F;
   height: 80px;
@@ -114,9 +119,13 @@ body {
   width: 100%;
 }
 
+.hero-img-container h1 {
+  font-size: 85px;
+}
+
 .hero-img-caption-container {
   position: absolute;
-  left: 11rem;
+  left: 14rem;
   top: 15rem;
   text-align: center;
   background-color: rgba(242, 242, 242, 0.3215686275);
@@ -193,6 +202,17 @@ body {
 
 .fa-arrow-circle-right, .fa-arrow-circle-left {
   color: #232659;
+}
+
+.img-card-col {
+  height: 250px;
+}
+
+.img-hall-of-fame {
+  width: auto;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .container-galleri {
