@@ -307,6 +307,7 @@ body {
   background-color: #73060F;
   color: #f2f2f2;
   margin-top: 50px;
+  padding: 0 30px;
 }
 
 .footer-container .row {
@@ -323,7 +324,7 @@ body {
 
 .footer-logo-col {
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-content: center;
   margin: 0;
   padding: 0;
@@ -339,13 +340,17 @@ body {
 }
 
 .footer-logo {
-  max-width: 150px;
+  max-width: 125px;
 }
 
 .footer-menu {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.footer-menu li {
+  padding: 5px 0;
 }
 
 .footer-menu a {
@@ -357,6 +362,10 @@ body {
   color: #232659;
   -webkit-text-decoration: underline 2px;
           text-decoration: underline 2px;
+}
+
+.contact-h4 {
+  margin-top: 5px;
 }
 
 .contact-col p {
