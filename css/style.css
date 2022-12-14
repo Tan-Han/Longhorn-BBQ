@@ -254,7 +254,7 @@ body {
   margin-right: 0px;
   margin-left: 350px;
   margin-bottom: 0;
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 .fb-col, .insta-col {
@@ -263,7 +263,7 @@ body {
 
 .fa {
   padding: 20px;
-  width: 80px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -283,11 +283,7 @@ body {
   color: white;
 }
 
-.video-col {
-  width: 100%;
-}
-
-.video-col, .follow-col, .col-tilmeld {
+.follow-col, .col-tilmeld {
   border: #73060F 2px solid;
   border-radius: 5px;
   margin-left: 10px;
