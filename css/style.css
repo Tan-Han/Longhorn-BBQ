@@ -216,10 +216,6 @@ body {
      object-fit: cover;
 }
 
-.container-galleri {
-  border-bottom: #73060F solid 2px;
-}
-
 .galleri-h2 {
   background-color: #73060F;
   padding-top: 10px;
@@ -231,7 +227,8 @@ body {
 .gal-row {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  padding: 40px 0;
+  border-bottom: #73060F solid 2px;
 }
 
 .gal-row .col {

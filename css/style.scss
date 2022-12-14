@@ -169,10 +169,6 @@ body {
 
 // Galleri
 
-.container-galleri {
-  border-bottom: $primary-color solid 2px;
-}
-
 .galleri-h2 {
   background-color: $primary-color;
   padding-top: 10px;
@@ -184,7 +180,8 @@ body {
 .gal-row {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  padding: 40px 0;
+  border-bottom: $primary-color solid 2px;
 }
 
 .gal-row .col {
