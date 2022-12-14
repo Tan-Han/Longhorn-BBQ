@@ -254,7 +254,7 @@ body {
   margin-right: 0px;
   margin-left: 350px;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .fb-col, .insta-col {
@@ -263,7 +263,7 @@ body {
 
 .fa {
   padding: 20px;
-  width: 90px;
+  width: 80px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -285,6 +285,13 @@ body {
 
 .video-col {
   width: 100%;
+}
+
+.video-col, .follow-col, .col-tilmeld {
+  border: #73060F 2px solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .container-sponsor {
