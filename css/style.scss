@@ -365,7 +365,20 @@ body {
   padding: 10px;
 }
 
-
+.submit-knap {
+  --bs-btn-color: #232659;
+  --bs-btn-border-width: 2px;
+  --bs-btn-bg: #f2f2f2;
+  --bs-btn-border-color: #232659;
+  --bs-btn-hover-color: #f2f2f2;
+  --bs-btn-hover-bg: #232659;
+  --bs-btn-hover-border-color: #232659;
+  --bs-btn-active-color: #f2f2f2;
+  --bs-btn-active-bg: #232659;
+  --bs-btn-active-border-color: #232659;
+  --bs-btn-disabled-color: #232659;
+  --bs-btn-disabled-border-color: #232659;
+}
 
 
 // Find vej
