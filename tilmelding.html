@@ -24,8 +24,8 @@
   <!-- Navigation bar -->
   <!-- Kopierede navbar ind fra Bootstraps hjemmeside. -->
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark w-100 align-items-center">
+    <div class="container-fluid w-100" style="z-index: 10; background-color: #73060F;">
 
 <!-- Indsat logo. Givet den class "navbar-logo" -->
 
@@ -36,7 +36,7 @@
 
       <!-- I ul-class har jeg skrevet w-100 for full width og justify-content-center for at centrere menuen. I mellem hver a og /a er der skrevet en menu-knaps navn, f.eks. <a> Hjem </a>. Den sidste a er en dropdown med sprog valgmuligheder -->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 10;">
         <ul class="navbar-nav w-100 justify-content-center">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Hjem</a>
@@ -61,8 +61,8 @@
           </li>
         </ul>
 
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
+        <form class="d-flex" role="search" style="padding: 10px 0;">
+          <input class="form-control me-2 search-bar" type="search" placeholder="Søg" aria-label="Search">
           <button class="btn btn-outline-success search-button" type="submit">Search</button>
         </form>
       </div>
@@ -82,7 +82,7 @@
 
       <!-- DM i BBQ -->
 
-      <div class="col">
+      <div class="col form-col">
         <div class="row h3-row" style="--bs-gutter-x: 0;">
           <h3 class="header-three">Tilmelding til DM i Amerikansk BBQ</h3>
         </div>
@@ -122,7 +122,7 @@
 
       <!-- Kids Que -->
     
-      <div class="col">
+      <div class="col form-col">
         <div class="row h3-row" style="--bs-gutter-x: 0;">
           <h3 class="header-three">Tilmelding til DM i Kids Que</h3>
         </div>
@@ -168,7 +168,7 @@
 
       <!-- Dommer -->
 
-      <div class="col">
+      <div class="col form-col">
         <div class="row h3-row" style="--bs-gutter-x: 0;">
           <h3 class="header-three">Dommer</h3>
         </div>
@@ -202,7 +202,7 @@
 
       <!-- Frivillig -->
     
-      <div class="col">
+      <div class="col form-col">
         <div class="row h3-row" style="--bs-gutter-x: 0;">
           <h3 class="header-three">Frivillig</h3>
         </div>

@@ -24,8 +24,8 @@
   <!-- Navigation bar -->
   <!-- Kopierede navbar ind fra Bootstraps hjemmeside. -->
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark w-100 align-items-center">
+    <div class="container-fluid w-100" style="z-index: 10; background-color: #73060F;">
 
 <!-- Indsat logo. Givet den class "navbar-logo" -->
 
@@ -36,7 +36,7 @@
 
       <!-- I ul-class har jeg skrevet w-100 for full width og justify-content-center for at centrere menuen. I mellem hver a og /a er der skrevet en menu-knaps navn, f.eks. <a> Hjem </a>. Den sidste a er en dropdown med sprog valgmuligheder -->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 10;">
         <ul class="navbar-nav w-100 justify-content-center">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Hjem</a>
@@ -61,19 +61,18 @@
           </li>
         </ul>
 
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
+        <form class="d-flex" role="search" style="padding: 10px 0;">
+          <input class="form-control me-2 search-bar" type="search" placeholder="Søg" aria-label="Search">
           <button class="btn btn-outline-success search-button" type="submit">Search</button>
         </form>
       </div>
     </div>
   </nav>
 
-
 <!-- find vej -->
 
 <div class="container-fluid findvej-container">
-  <div class="row findvej-row-one" style="--bs-gutter-x: 0; padding: 0 500px; margin-top: 30px; margin-bottom: 40px;">
+  <div class="row findvej-row-one" style="--bs-gutter-x: 0; padding: 0 40%; margin-top: 30px; margin-bottom: 40px;">
     <h2 class="kort-h2 header-two" style="border-bottom: #73060F 3px solid; padding-bottom: 10px;">Find vej</h2>
   </div>
   <div class="row kort-row">
@@ -89,19 +88,23 @@
     </div>
   </div>
   <div class="row">
-    <div class="col" style="padding: 50px 90px;">
-      <h4 class="adresse-h4 header-four">Med offentlig transport</h3>
-        <p>Stå af ved Brørup Station.</p>
-        <p>Tag bus 148 til Nørregade.</p>
-        <p>Det er tredje stop på vejen.</p>
-        <p>Herfra kan I gå til pladsen.</p>
-    </div>
-    <div class="col justify-content-center align-items-center w-100 h-100" style="padding-top: 80px;">
-      <div class="row">
-        <p style="font-size: 12px; width: 55%;">For mere information om offentlig transport, så henviser vi til Rejseplanen:</p>
+    <div class="col offentlig-col" style="padding: 50px 90px;">
+      <div style="min-width: 220px;">
+        <h4 class="adresse-h4 header-four">Med offentlig transport</h3>
+          <p>Stå af ved Brørup Station.</p>
+          <p>Tag bus 148 til Nørregade.</p>
+          <p>Det er tredje stop på vejen.</p>
+          <p>Herfra kan I gå til pladsen.</p>
       </div>
-      <div class="row">
-        <a href="https://rejseplanen.dk/webapp/"><img src="img/Rejseplanen logo/RP logo/farve/web/rp_logo_930x260px_rgb.png" alt="" class="rejseplanen-logo w-50"></a>
+    </div>
+    <div class="col rejse-col justify-content-center align-items-center w-100 h-100" style="padding-top: 80px;">
+      <div class="rejse-div" style="min-width: 220px;">
+        <div class="row">
+          <p class="rejse-tekst" style="font-size: 12px; width: 55%;">For mere information om offentlig transport, så henviser vi til Rejseplanen:</p>
+        </div>
+        <div class="row">
+          <a href="https://rejseplanen.dk/webapp/"><img src="img/Rejseplanen logo/RP logo/farve/web/rp_logo_930x260px_rgb.png" alt="" class="rejseplanen-logo w-50"></a>
+        </div>
       </div>
     </div>
   </div>
