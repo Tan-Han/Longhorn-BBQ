@@ -350,7 +350,6 @@ body {
 .maskot-program-row {
   width: 100%;
   height: 100%;
-  justify-content: center;
 }
 
 .maskot-col, .program-col {
@@ -371,6 +370,7 @@ body {
 .program {
   height: 100%;
   width: auto;
+  padding-right: 20px;
 }
 
 // Tilmelding
@@ -437,6 +437,12 @@ body {
   width: 100%;
   text-align: center;
   padding: 20px 0;
+}
+
+.kort-row {
+  border-bottom: 1px solid $primary-color;
+  padding-bottom: 50px;
+  margin: 0 30px;
 }
 
 .kort-col {
