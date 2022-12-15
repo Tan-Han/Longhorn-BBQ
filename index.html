@@ -24,8 +24,8 @@
   <!-- Navigation bar -->
   <!-- Kopierede navbar ind fra Bootstraps hjemmeside. -->
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid"  >
+  <nav class="navbar navbar-expand-lg navbar-dark w-100 align-items-center">
+    <div class="container-fluid w-100" style="z-index: 10; background-color: #73060F;">
 
 <!-- Indsat logo. Givet den class "navbar-logo" -->
 
@@ -36,7 +36,7 @@
 
       <!-- I ul-class har jeg skrevet w-100 for full width og justify-content-center for at centrere menuen. I mellem hver a og /a er der skrevet en menu-knaps navn, f.eks. <a> Hjem </a>. Den sidste a er en dropdown med sprog valgmuligheder -->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 10;">
         <ul class="navbar-nav w-100 justify-content-center">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Hjem</a>
@@ -61,8 +61,8 @@
           </li>
         </ul>
 
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
+        <form class="d-flex" role="search" style="padding: 10px 0;">
+          <input class="form-control me-2 search-bar" type="search" placeholder="Søg" aria-label="Search">
           <button class="btn btn-outline-success search-button" type="submit">Search</button>
         </form>
       </div>
@@ -150,7 +150,7 @@
       <div class="card mb-3" style="max-width: 400px; border: 2px #73060F solid;">
         <div class="row g-0">
           <div class="col-md-4 img-card-col">
-            <img src="img/vintage cars.png" class="img-fluid rounded-start h-100" alt="..." class="img-hall-of-fame" style="object-fit: cover;">
+            <img src="img/vintage cars.png" class="img-fluid rounded-start h-100 img-hall-of-fame" alt="..." style="object-fit: cover;">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -291,7 +291,7 @@
 
     <!-- .row har jeg brugt style="--bs-gutter-x: 0;" for at fjerne hvid kant i højre side af hjemmesiden -->
 
-    <div class="row" style="--bs-gutter-x: 0;">
+    <div class="row video-row" style="--bs-gutter-x: 0;">
 
       <!-- Første .col har jeg kaldt for col-tilmeld og givet et højte på 225px -->
       <!-- Jeg har lavet 3 .row inde i .col. -->
@@ -299,7 +299,7 @@
       <!-- Den anden .row har jeg kaldt for follow-row-text og indsat en paragraph. Jeg har styled den med padding i top, venstre og højre side, samt igen brugt --bs-gutter-x: 0; -->
       <!-- I tredje .row har jeg indsat pil-icon fra cards  -->
 
-      <div class="col col-tilmeld" style="height: 225px;">
+      <div class="col col-tilmeld" style="max-width: 420px; height: 236px;">
         <div class="row h2-follow-row" style="background-color: #73060F; color: #f2f2f2; padding: 10px 10px; --bs-gutter-x: 0;">
           <h2 class="header-two">Tilmelding</h2>
         </div>
@@ -307,15 +307,15 @@
           <p>Kunne du tænke dig at deltage i konkurrencen, eller kunne du tænke dig at være dommer? Eller kunne du måske tænke dig at være frivillig?</p>
         </div>
         <div class="row arrow-row-tilmeld w-100" style="height: 40px; align-items: center;">
-          <a href="" class="link-arrow" style="height: 50px; align-items: center;"><i class="fa fa-arrow-circle-right" style="font-size: 40px; padding: 0; margin-top: 10px;"></i></a>
+          <a href="" class="link-arrow" style="height: 50px; align-items: center;"><i class="fa fa-arrow-circle-right" style="font-size: 40px; padding: 0;"></i></a>
         </div>
       </div>
 
       <!-- Anden .col har jeg kaldt for video-col og givet en max-width -->
       <!-- Jeg har indsat en video med fuld højde og en max width og en border radius -->
 
-      <div class="col video-col" style="max-width: 400px;">
-        <video controls src="" class="video h-100'" style="max-width: 400px; border-radius: 5px;"></video>
+      <div class="col video-col" style="max-width: 420px;">
+        <video controls src="video/Teaser.mp4" class="video h-100'" style="max-width: 419px; border-radius: 5px;"></video>
       </div>
 
       <!-- Trejde .col har jeg kaldt for follow-col og givet en højde og max width. Jeg har indsat 3 .row -->
@@ -323,18 +323,18 @@
       <!-- Den anden .row har jeg kaldt for follow-row-text, og indsat en paragraph. Jeg har styled den med padding i top, venstre og højre side, samt igen brugt --bs-gutter-x: 0;  -->
       <!-- Den tredje .row har jeg kaldt for follow-icons-row og givet en full width med w-100 og brugt justify-content-center til at centrere de to .col som jeg har sat ind med icons i. follow-icons-row har jeg styled med padding til venstre og højre, --bs-gutter-x: 0; og en højde. Hver .col har jeg givet en full width. Jeg har styled med padding til højre og venstre, samt en margin i den ene side for at skubbe dem tættere sammen -->
 
-      <div class="col follow-col" style="max-width: 400px; height: 225px;">
+      <div class="col follow-col" style="max-width: 420px; height: 236px;">
         <div class="row h2-follow-row" style="background-color: #73060F; color: #f2f2f2; padding: 10px 10px; --bs-gutter-x: 0;">
           <h2 class="header-two">Følg os</h2>
         </div>
         <div class="row follow-row-text" style="padding-top: 5px; padding-left: 10px; padding-right: 10px; --bs-gutter-x: 0;">
           <p>Følg os på Facebook eller Instagram, og følg med i hvad der kommer til at ske til den næste Longhorn BBQ Competition!</p>
         </div>
-        <div class="row follow-icons-row w-100 justify-content-center" style="padding: 0px 10px; --bs-gutter-x: 0; height: 40px;">
-          <div class="col fb-col w-100 " style="padding: 0 10px; margin-left: 90px;">
+        <div class="row follow-icons-row w-100 justify-content-center" style="padding: 0px 10px; --bs-gutter-x: 0; height: 60px;">
+          <div class="col fb-col " style="padding: 0 10px; margin-left: 25%; width: 60px;">
             <a href="#" class="fa fa-facebook" style="font-size: 20px;"></a>
           </div>
-          <div class="col insta-col w-100" style="padding: 0 10px; margin-right: 90px;">
+          <div class="col insta-col " style="padding: 0 10px; margin-right: 15%; width: 60px;">
             <a href="#" class="fa fa-instagram" style="font-size: 20px;"></a>
           </div>
         </div>
