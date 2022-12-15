@@ -328,3 +328,49 @@ body {
   padding: 0;
   margin: 0;
 }
+
+// Program
+
+.row-program {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.row-program h2 {
+  border-bottom: 3px solid $primary-color;
+  padding-bottom: 20px;
+}
+
+.row-program h4 {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.maskot-program-row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.maskot-col, .program-col {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.viking-maskot {
+  height: auto;
+  width: 60%;
+}
+
+.program {
+  height: 100%;
+  width: auto;
+}
