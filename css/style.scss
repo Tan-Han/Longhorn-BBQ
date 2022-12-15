@@ -237,3 +237,43 @@ body {
   padding: 0;
   margin: 0;
 }
+
+// Tilmelding
+
+.h2-tilmelding-container {
+  color: $primary-color;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 0 500px; 
+  margin-top: 30px; 
+  margin-bottom: 40px;
+}
+
+.h2-tilmelding-container h2 {
+  border-bottom: 3px solid $primary-color;
+  padding-bottom: 10px;
+}
+
+.bbq-tilmeld-container .row .col {
+  margin: 30px;
+  border: $primary-color 2px solid;
+  border-radius: 5px;
+}
+
+.bbq-tilmeld-container .row .col .h3-row {
+  width: 100%;
+  text-align: center;
+  background-color: $primary-color;
+  color: $base-color;
+  padding: 10px;
+}
+
+.bbq-tilmeld-container .row .col .blanket-row {
+  width: 100%;
+  color: $primary-color;
+  padding: 10px;
+}
+
+
