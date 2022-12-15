@@ -116,15 +116,10 @@ body {
   font-size: 20px;
 }
 
-.sub-navbar a {
+.sub-navbar ul li {
   color: $base-color;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 20px;
-}
-
-.sub-navbar a:hover {
-  color: $cta-color;
-  text-decoration: underline 2px;
 }
 
 // Cards

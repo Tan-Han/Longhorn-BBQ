@@ -164,16 +164,10 @@ body {
   font-size: 20px;
 }
 
-.sub-navbar a {
+.sub-navbar ul li {
   color: #f2f2f2;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 20px;
-}
-
-.sub-navbar a:hover {
-  color: #232659;
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
 }
 
 .card-row {
