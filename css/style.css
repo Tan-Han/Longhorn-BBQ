@@ -422,6 +422,10 @@ body {
   --bs-btn-disabled-border-color: #232659;
 }
 
+.findvej-container {
+  color: #232659;
+}
+
 .findvej-row-one {
   width: 100%;
   text-align: center;
