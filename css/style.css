@@ -369,4 +369,114 @@ body {
 .contact-col p {
   padding: 0;
   margin: 0;
+}
+
+.row-program {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.row-program h2 {
+  border-bottom: 3px solid #73060F;
+  padding-bottom: 20px;
+}
+
+.row-program h4 {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.maskot-program-row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.maskot-col, .program-col {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.viking-maskot {
+  height: auto;
+  width: 60%;
+}
+
+.program {
+  height: 100%;
+  width: auto;
+}
+
+.h2-tilmelding-container {
+  color: #73060F;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 0 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.h2-tilmelding-container h2 {
+  border-bottom: 3px solid #73060F;
+  padding-bottom: 10px;
+}
+
+.bbq-tilmeld-container .row .col {
+  margin: 30px;
+  border: #73060F 2px solid;
+  border-radius: 5px;
+}
+
+.bbq-tilmeld-container .row .col .h3-row {
+  width: 100%;
+  text-align: center;
+  background-color: #73060F;
+  color: #f2f2f2;
+  padding: 10px;
+}
+
+.bbq-tilmeld-container .row .col .blanket-row {
+  width: 100%;
+  color: #73060F;
+  padding: 10px;
+}
+
+.submit-knap {
+  --bs-btn-color: #232659;
+  --bs-btn-border-width: 2px;
+  --bs-btn-bg: #f2f2f2;
+  --bs-btn-border-color: #232659;
+  --bs-btn-hover-color: #f2f2f2;
+  --bs-btn-hover-bg: #232659;
+  --bs-btn-hover-border-color: #232659;
+  --bs-btn-active-color: #f2f2f2;
+  --bs-btn-active-bg: #232659;
+  --bs-btn-active-border-color: #232659;
+  --bs-btn-disabled-color: #232659;
+  --bs-btn-disabled-border-color: #232659;
+}
+
+.findvej-container {
+  color: #232659;
+}
+
+.findvej-row-one {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.kort-col {
+  border: 2px solid #73060F;
+  height: 324px;
 }/*# sourceMappingURL=style.css.map */
